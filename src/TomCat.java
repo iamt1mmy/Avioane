@@ -6,7 +6,11 @@ public class TomCat extends AvionDeLupta {
 	}
 	
 	public void refuel() {
-		System.out.println("PlaneID Value - Initiating refueling procedure - Locating refueller - Catching up - Refueling - Refueling complete");
+		System.out.println(getPlaneID()+" Initiating refueling procedure");
+		System.out.println("Locating refueller");
+		System.out.println("Catching up");
+		System.out.println("Refueling");
+		System.out.println("Refueling complete\n");
 	}
 
 }

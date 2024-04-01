@@ -10,22 +10,33 @@ public class Avion {
 	}
 	
 	public String getPlaneID() {
-		return this.getPlaneID();
+		return planeID;
 	}
 		
 	public int getTotalEnginePower() {
-		return this.getTotalEnginePower();
+		return getTotalEnginePower();
 	}
-	
+		
 	public void takeOff() {
-		System.out.println("PlaneID Value - Initiating takeoff procedure - Starting engines - Accelerating down the runway - Taking off - Retracting gear - Takeoff complete");
+		System.out.println(planeID+" Initiating takeoff procedure");
+		System.out.println("Starting engines");
+		System.out.println("Accelerating down the runway");
+		System.out.println("Taking off");
+		System.out.println("Retracting gear");
+		System.out.println("Takeoff complete\n");
 	}
 	
 	public void land() {
-		System.out.println("PlaneID Value - Initiating landing procedure - Enabling airbrakes - Lowering gear - Contacting runway - Decelerating - Stopping engines - Landing complete");
+		System.out.println(planeID+" Flying\n");	
 	}
 	
 	public void fly() {
-		System.out.println("PlaneID Value - Flying");
+		System.out.println(planeID+" Initiating landing procedure");
+		System.out.println("Enabling airbrakes");
+		System.out.println("Lowering gear");
+		System.out.println("Contacting runway");
+		System.out.println("Decelerating");
+		System.out.println("Stopping engines");
+		System.out.println("Landing complete\n");
 	}
 }

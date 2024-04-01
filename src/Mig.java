@@ -6,10 +6,10 @@ public class Mig extends AvionDeLupta {
 	}
 
 	public void highSpeedGeometry() {
-		System.out.println("PlaneID Value - High speed geometry selected");
+		System.out.println(getPlaneID()+ " - High speed geometry selected");
 	}
 	
 	public void normalGeometry() {
-		System.out.println("PlaneID Value - Normal geometry selected");
+		System.out.println(getPlaneID()+ " - Normal geometry selected");
 	}
 }

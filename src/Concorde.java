@@ -6,10 +6,10 @@ public class Concorde extends AvionDeCalatori {
 	}
 
 	public void goSuperSonic() {
-		System.out.println("PlaneID_Value - Supersonic mode activated");
+		System.out.println(getPlaneID()+ " - Supersonic mode activated");
 	}
 	
 	public void goSubSonic() {
-		System.out.println("PlaneID Value - Supersonic mode deactivated");
+		System.out.println(getPlaneID()+ " - Supersonic mode deactivated");
 	}
 }

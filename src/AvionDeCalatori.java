@@ -9,7 +9,7 @@ public class AvionDeCalatori extends Avion {
 	}
 
 	public int getMaxPassengers() {
-		return this.getMaxPassengers();
+		return maxPassengers;
 	}
 
 }

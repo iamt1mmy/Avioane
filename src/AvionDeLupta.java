@@ -6,7 +6,11 @@ public class AvionDeLupta extends Avion {
 	}
 	
 	public void launchMissile() {
-		System.out.println("PlaneID Value - Initiating missile launch procedure - Acquiring target - Launching missile - Breaking away - Missile launch complete");
+		System.out.println(getPlaneID()+" Initiating missile launch procedure");
+		System.out.println("Acquiring target");
+		System.out.println("Launching missile");
+		System.out.println("Break-ing away");
+		System.out.println("Missile launch complete\n");
 	}
 
 }
